@@ -2,14 +2,16 @@
 Programming Challenge Initialization
 
 Prior to the competition it is expected that you have working programming environments with all needed dependencies ready for deployment. For the simulation you will need to have:
--	Node js (version 12.14.0 and npm) Nodejs Download
+-	Node js (version 12.14.0 and npm) 
+https://nodejs.org/en/download/
 
 For Python:
 -	A version of Python (including a package management system, the commands given below use pip) if your team wishes to use **Python** to code
 
 For Java:
 -	A working Java environment (an IDE may also be helpful, the examples assume Eclipse is being used) if your team wishes to use **Java** to code
--	The Json-simple-1.1 JAR  JSON Simple Download
+-	The Json-simple-1.1 JAR 
+JSON Simple Download: http://www.java2s.com/Code/Jar/j/Downloadjsonsimple11jar.htm
 
 ## Trial Setup
 _Note:_ You will be given the actual simulation during the competition, but the steps will be the same
