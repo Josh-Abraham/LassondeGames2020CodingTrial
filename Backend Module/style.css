@@ -1,0 +1,80 @@
+#full-screen-display {
+	margin-left: -10px;
+	margin-top: -10px;
+	width: 100vw;
+	height: calc(99vh + 2px);
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+}
+
+
+#display-sky-background {
+	height: calc(98vh + 8px);
+	object-fit: cover;
+	text-align: center;
+}
+
+.display-mars {
+	position: absolute;
+	left: calc(50% - 15vw);
+	top: 10vh;
+	width: 30vw;
+}
+
+
+.LGLogo{
+	width: 30vw;
+	position: absolute;
+	bottom: 0px;
+	left: calc(50% - 15vw);
+}
+
+
+.title {
+	animation-name: titleAnimate;
+	animation-duration: 4s;
+	font-family: "Arial Black";
+	text-align: center;
+	opacity: 1;
+	font-size: 35px;
+	color: white;
+	width: 500px;
+	position: absolute;
+	bottom: 200px;
+	left: calc(50% - 250px);
+}
+
+.rocket {
+	position: absolute;
+	transform: rotate(10deg);
+	animation-name: fly;
+	animation-duration: 8s;
+	left: 50%;
+	top: 20vh;
+	height: 12vh;	
+}
+
+@keyframes titleAnimate {
+	from {
+		opacity: 0;
+	}
+  to {
+		opacity: 1;
+	}
+}
+
+@keyframes fly {
+	from {
+		transform: rotate(80deg);
+		left: 30px;
+		top: 10vh;
+		height: 27vh;	
+	}
+  to {
+		transform: rotate(10deg);
+		left: 50%;
+		top: 20vh;
+		height: 12vh;	
+	}
+}
