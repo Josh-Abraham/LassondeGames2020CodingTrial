@@ -16,7 +16,7 @@ JSON Simple Download: http://www.java2s.com/Code/Jar/j/Downloadjsonsimple11jar.h
 ## Trial Setup
 _Note:_ You will be given the actual simulation during the competition, but the steps will be the same
 
-In your command prompt/ terminal navigate to the following location _LassondeGames2020CodingTrial\Backend Module_
+In your command prompt/ terminal navigate to the following location _LassondeGames2020CodingTrial\BackendModule_
 Once in that directory, you need to install your node modules. To do this type the following command: 
 
 **npm install**
